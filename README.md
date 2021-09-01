@@ -24,4 +24,6 @@ Bisa, ada didalam daftar penjualan pulsa
 Harga Bayar: Rp. 12000
 ```
 
-finish
+Finish
+
+Created by : [Ryan Pazrin](https://github.com/ryfazrin)
