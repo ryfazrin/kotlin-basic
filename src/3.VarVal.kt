@@ -14,4 +14,13 @@ fun main() {
 
     val old: Int = 19
     println(old)
+
+    // Operator +
+    val firstWord = "Dicoding "
+    val lastWord = "Acedemy"
+    println(firstWord + lastWord)
+
+    val valueA: Int = 10
+    val valueB = 20
+    println(valueA + valueB)
 }
