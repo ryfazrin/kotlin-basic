@@ -41,8 +41,8 @@ fun main() {
 
     // Isi Pulsa
     print("Isi Pulsa Sebanyak : ")
-    println("10.000")
-    var pulsaBuy: Int = 13000
+    var pulsaBuy: Int = 10000
+    println(pulsaBuy)
 
     // cek daftar pulsa
     when(pulsaBuy){
