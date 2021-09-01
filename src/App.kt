@@ -32,10 +32,31 @@ fun main() {
     val pulsaList = intArrayOf(5000, 10_000, 20_000, 50_0000, 100_000)
     var hargaList = intArrayOf(7000, 12_000, 22_000, 52_0000, 102_000)
 
+    // for array multidimentional
     var lala: Array<IntArray> = arrayOf(pulsaList, hargaList)
 
-    println("Isi Pulsa : ")
     for ((i, value) in pulsaList.withIndex()){
         println("${i}. $value Harga : ${hargaList[i]}")
+    }
+
+    // Isi Pulsa
+    print("Isi Pulsa Sebanyak : ")
+    println("10.000")
+    var pulsaBuy: Int = 13000
+
+    // cek daftar pulsa
+    when(pulsaBuy){
+        in pulsaList -> println("Bisa, ada didalam daftar penjualan pulsa")
+        else -> println("Tidak ada didalam daftar penjualan pulsa")
+    }
+
+    // menentukan harga pulsa
+    print("Harga Bayar: Rp. ")
+    when(pulsaBuy){
+        pulsaList[0] -> println(hargaList[0])
+        pulsaList[1] -> println(hargaList[1])
+        pulsaList[2] -> println(hargaList[2])
+        pulsaList[3] -> println(hargaList[3])
+        else -> println(0)
     }
 }
