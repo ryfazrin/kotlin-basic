@@ -16,6 +16,7 @@ fun main() {
     // Status
     var status: Boolean = true
     if (status) println("Aplikasi Aktif/Buka") else println("Aplikasi Tutup")
+    println()
 
     // Body Header
     val bodyHeader = arrayOf("Daftar", "Pulsa")
@@ -38,6 +39,7 @@ fun main() {
     for ((i, value) in pulsaList.withIndex()){
         println("${i}. $value Harga : ${hargaList[i]}")
     }
+    println()
 
     // Isi Pulsa
     print("Isi Pulsa Sebanyak : ")
