@@ -1,29 +1,12 @@
-# kotlin-basic
-## Kotlin learning
+# Kotlin Basic
 
-Studi Kasus membuat Aplikasi Penjualan Pulsa `Static` dengan Kotlin
+## What is Kotlin-Basic?
+Kotlin-basic is a repo containing simple `Kotlin Case Studies` with Fundamental Kotlin implementations
 
-## Command
-Command View Result
-```
-================================
-=== Aplikasi Penjualan Pulsa ===
-================================
-
-Aplikasi Aktif/Buka
-
-Daftar Pulsa : 0 1 2 3 4 
-0. 5000 Harga : 7000
-1. 10000 Harga : 12000
-2. 20000 Harga : 22000
-3. 500000 Harga : 520000
-4. 100000 Harga : 102000
-
-Isi Pulsa Sebanyak : 10000
-Bisa, ada didalam daftar penjualan pulsa
-Harga Bayar: Rp. 12000
-```
-
-Finish
-
+## Contributed
 Created by : [Ryan Pazrin](https://github.com/ryfazrin)
+
+##
+Thanks to :
+[Team JetBrains/Kotlin](https://github.com/JetBrains/kotlin)
+[Dicoding Academy](https://github.com/dicodingacademy)
