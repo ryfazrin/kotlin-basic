@@ -1,6 +1,13 @@
 /**
- * Main
- * Studi Kasus, Website Portfolio
+ * Lambda Expression
+ */
+val message = { name: String ->
+    println("Ini adalah Halaman Portfolio $name")
+}
+
+/**
+ * MAIN
+ * Studi Kasus, Portfolio
  */
 fun main() {
     // * myFullName with function
@@ -10,7 +17,8 @@ fun main() {
         last = "Andreanor"
     )
 
-    println(myFullName)
+    // * message header with Lambda Expression
+    message(myFullName)
 
     // ===========================
 
